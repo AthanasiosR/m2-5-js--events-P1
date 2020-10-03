@@ -5,6 +5,11 @@
 
 const letterCount = (arr) => {
   // Insert missing solution please
+  let sum = 0;
+  arr.forEach((word) => {
+    sum += word.length;
+  });
+  return sum;
 };
 
 // 2. Do a console.log to verify your function.

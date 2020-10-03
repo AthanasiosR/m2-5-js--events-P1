@@ -7,6 +7,8 @@
 
 const combineArrays = (arr1, arr2) => {
   // Insert missing solution please
+  const newArray = [...arr1, ...arr2];
+  return newArray.sort();
 };
 
 // 2. Do a console.log to verify your function.
